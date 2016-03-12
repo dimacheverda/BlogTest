@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3CDE511C94369B00B1D420 /* BlogPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CDE501C94369B00B1D420 /* BlogPostsViewController.swift */; };
+		9F3CDE541C9436CC00B1D420 /* BlogPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CDE521C9436CC00B1D420 /* BlogPostCell.swift */; };
+		9F3CDE551C9436CC00B1D420 /* BlogPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CDE531C9436CC00B1D420 /* BlogPostCell.xib */; };
+		9F3CDE571C943DBA00B1D420 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CDE561C943DBA00B1D420 /* BlogPost.swift */; };
 		9F6EF8C01C9422EA005E9F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF8BF1C9422EA005E9F7C /* AppDelegate.swift */; };
 		9F6EF8C51C9422EA005E9F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C31C9422EA005E9F7C /* Main.storyboard */; };
 		9F6EF8C71C9422EA005E9F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C61C9422EA005E9F7C /* Assets.xcassets */; };
 		9F6EF8CA1C9422EA005E9F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C81C9422EA005E9F7C /* LaunchScreen.storyboard */; };
 		9F6EF8D81C94271E005E9F7C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8D71C94271E005E9F7C /* Podfile */; };
+		9F6EF8DA1C942BFD005E9F7C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF8D91C942BFD005E9F7C /* Networking.swift */; };
+		9F6EF8DC1C942F0D005E9F7C /* Stubing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */; };
+		9F6EF8DF1C943004005E9F7C /* BlogPostsResponse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8DE1C943004005E9F7C /* BlogPostsResponse.plist */; };
+		9F6EF8E11C943151005E9F7C /* BlogPostsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8E01C943151005E9F7C /* BlogPostsResponse.json */; };
 		E2FC53E70B318EBD4E87C8BE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F11E9F0F250D77C2C798509 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E79E7421693C8872905E0C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5F11E9F0F250D77C2C798509 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3CDE501C94369B00B1D420 /* BlogPostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPostsViewController.swift; sourceTree = "<group>"; };
+		9F3CDE521C9436CC00B1D420 /* BlogPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPostCell.swift; sourceTree = "<group>"; };
+		9F3CDE531C9436CC00B1D420 /* BlogPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogPostCell.xib; sourceTree = "<group>"; };
+		9F3CDE561C943DBA00B1D420 /* BlogPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
 		9F6EF8BC1C9422EA005E9F7C /* BlogTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6EF8BF1C9422EA005E9F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6EF8C41C9422EA005E9F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,6 +37,10 @@
 		9F6EF8C91C9422EA005E9F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6EF8CB1C9422EA005E9F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6EF8D71C94271E005E9F7C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6EF8D91C942BFD005E9F7C /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stubing.swift; sourceTree = "<group>"; };
+		9F6EF8DE1C943004005E9F7C /* BlogPostsResponse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BlogPostsResponse.plist; sourceTree = "<group>"; };
+		9F6EF8E01C943151005E9F7C /* BlogPostsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlogPostsResponse.json; sourceTree = "<group>"; };
 		CD916F349F944B6E74E7BBB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,14 +64,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F3CDE581C943DBE00B1D420 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9F3CDE561C943DBA00B1D420 /* BlogPost.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 		9F6EF8B31C9422EA005E9F7C = {
 			isa = PBXGroup;
 			children = (
-				9F6EF8D71C94271E005E9F7C /* Podfile */,
 				9F6EF8BE1C9422EA005E9F7C /* BlogTest */,
-				9F6EF8BD1C9422EA005E9F7C /* Products */,
-				D4F828BCF3DDC4FD3F9D7EF7 /* Pods */,
 				3097A7B936B31560886D381B /* Frameworks */,
+				D4F828BCF3DDC4FD3F9D7EF7 /* Pods */,
+				9F6EF8BD1C9422EA005E9F7C /* Products */,
+				9F6EF8D71C94271E005E9F7C /* Podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +98,7 @@
 				9F6EF8D31C942389005E9F7C /* Controllers */,
 				9F6EF8D21C942384005E9F7C /* Models */,
 				9F6EF8D51C9423DA005E9F7C /* Resources */,
+				9F6EF8DD1C942F64005E9F7C /* ResponseStubs */,
 				9F6EF8D41C9423AC005E9F7C /* Storyboards */,
 				9F6EF8D11C94237C005E9F7C /* Views */,
 			);
@@ -83,6 +108,8 @@
 		9F6EF8D11C94237C005E9F7C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F3CDE521C9436CC00B1D420 /* BlogPostCell.swift */,
+				9F3CDE531C9436CC00B1D420 /* BlogPostCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +117,9 @@
 		9F6EF8D21C942384005E9F7C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F6EF8D91C942BFD005E9F7C /* Networking.swift */,
+				9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */,
+				9F3CDE581C943DBE00B1D420 /* Entities */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +127,7 @@
 		9F6EF8D31C942389005E9F7C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9F3CDE501C94369B00B1D420 /* BlogPostsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -125,6 +156,15 @@
 				9F6EF8CB1C9422EA005E9F7C /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		9F6EF8DD1C942F64005E9F7C /* ResponseStubs */ = {
+			isa = PBXGroup;
+			children = (
+				9F6EF8E01C943151005E9F7C /* BlogPostsResponse.json */,
+				9F6EF8DE1C943004005E9F7C /* BlogPostsResponse.plist */,
+			);
+			path = ResponseStubs;
 			sourceTree = "<group>";
 		};
 		D4F828BCF3DDC4FD3F9D7EF7 /* Pods */ = {
@@ -165,7 +205,7 @@
 		9F6EF8B41C9422EA005E9F7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BT;
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Dima Cheverda";
@@ -198,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6EF8DF1C943004005E9F7C /* BlogPostsResponse.plist in Resources */,
 				9F6EF8CA1C9422EA005E9F7C /* LaunchScreen.storyboard in Resources */,
 				9F6EF8C71C9422EA005E9F7C /* Assets.xcassets in Resources */,
+				9F3CDE551C9436CC00B1D420 /* BlogPostCell.xib in Resources */,
 				9F6EF8D81C94271E005E9F7C /* Podfile in Resources */,
+				9F6EF8E11C943151005E9F7C /* BlogPostsResponse.json in Resources */,
 				9F6EF8C51C9422EA005E9F7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3CDE511C94369B00B1D420 /* BlogPostsViewController.swift in Sources */,
+				9F3CDE541C9436CC00B1D420 /* BlogPostCell.swift in Sources */,
+				9F6EF8DC1C942F0D005E9F7C /* Stubing.swift in Sources */,
+				9F3CDE571C943DBA00B1D420 /* BlogPost.swift in Sources */,
 				9F6EF8C01C9422EA005E9F7C /* AppDelegate.swift in Sources */,
+				9F6EF8DA1C942BFD005E9F7C /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
