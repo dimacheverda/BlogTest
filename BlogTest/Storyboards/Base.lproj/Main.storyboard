@@ -39,11 +39,31 @@
                     <navigationItem key="navigationItem" title="Blog Posts" id="1Ay-rI-Ezo"/>
                     <connections>
                         <outlet property="tableView" destination="0sA-Xn-bpi" id="S7b-L4-bGs"/>
+                        <segue destination="cz5-DE-ODk" kind="push" identifier="Open Post" id="OhR-Fa-kCc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQI-Dk-dqP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1275" y="431"/>
+        </scene>
+        <!--Original Post View Controller-->
+        <scene sceneID="Z08-Bu-7Br">
+            <objects>
+                <viewController id="cz5-DE-ODk" customClass="OriginalPostViewController" customModule="BlogTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DC4-6S-UOz"/>
+                        <viewControllerLayoutGuide type="bottom" id="sWS-lg-7Tg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kty-kP-02L">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kIe-v0-WfZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Hk-AH-avX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1982" y="431"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OD0-de-vX0">

@@ -11,7 +11,8 @@ import UIKit
 class BlogPostsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    var posts: [BlogPost] = []
+    var blogPosts: [BlogPost] = []
+    var selectedBlogPost: BlogPost?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +36,17 @@ class BlogPostsViewController: UIViewController {
             
             if let results = results as? [BlogPost] {
                 print("results", results)
-                self.posts = results
+                self.blogPosts = results
                 self.tableView.reloadData()
+            }
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "Open Post" {
+            if let destination = segue.destinationViewController as? OriginalPostViewController,
+                let originURL = selectedBlogPost?.originURL {
+                    destination.postOriginURLString = originURL
             }
         }
     }
@@ -49,13 +59,13 @@ extension BlogPostsViewController: UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return posts.count
+        return blogPosts.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(String(BlogPostCell), forIndexPath: indexPath) as! BlogPostCell
         
-        let post = posts[indexPath.row]
+        let post = blogPosts[indexPath.row]
         
         cell.configure(post)
         
@@ -66,6 +76,7 @@ extension BlogPostsViewController: UITableViewDataSource {
 extension BlogPostsViewController: UITableViewDelegate {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-
+        selectedBlogPost = blogPosts[indexPath.row]
+        performSegueWithIdentifier("Open Post", sender: self)
     }
 }
