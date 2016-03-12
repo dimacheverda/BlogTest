@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Blog Posts View Controller-->
+        <!--Blog Posts-->
         <scene sceneID="bhb-au-1Bj">
             <objects>
                 <viewController id="05H-n5-c2F" customClass="BlogPostsViewController" customModule="BlogTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,14 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0sA-Xn-bpi">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0sA-Xn-bpi">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="05H-n5-c2F" id="eyh-yF-Q8H"/>
+                                    <outlet property="delegate" destination="05H-n5-c2F" id="oO2-uY-yzW"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0sA-Xn-bpi" firstAttribute="top" secondItem="FNf-0i-y2m" secondAttribute="top" id="DWj-gW-gnS"/>
+                            <constraint firstItem="xY0-Hh-Ot8" firstAttribute="top" secondItem="0sA-Xn-bpi" secondAttribute="bottom" id="N9C-tT-hq6"/>
+                            <constraint firstAttribute="trailing" secondItem="0sA-Xn-bpi" secondAttribute="trailing" id="aqa-2b-fHb"/>
+                            <constraint firstItem="0sA-Xn-bpi" firstAttribute="leading" secondItem="FNf-0i-y2m" secondAttribute="leading" id="voA-HS-1Ac"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="1Ay-rI-Ezo"/>
+                    <navigationItem key="navigationItem" title="Blog Posts" id="1Ay-rI-Ezo"/>
+                    <connections>
+                        <outlet property="tableView" destination="0sA-Xn-bpi" id="S7b-L4-bGs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQI-Dk-dqP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

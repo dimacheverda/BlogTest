@@ -25,7 +25,7 @@ class RequestsManager: NSObject {
                     if value["data"] != nil {
                         let data = value["data"] as! [AnyObject]
                         print("data", data)
-                        if let posts = self.parseResponseData(data) {
+                        if let posts = self.parseBlogPosts(data) {
                             completion!(posts, nil)
                         } else {
                             completion!(nil, NSError(domain: "NetworkingDomain", code: 1001, userInfo: nil))
@@ -39,7 +39,7 @@ class RequestsManager: NSObject {
         }
     }
     
-    private func parseResponseData(data: [AnyObject]) -> [BlogPost]? {
+    private func parseBlogPosts(data: [AnyObject]) -> [BlogPost]? {
         return data.map { (postJSON) -> BlogPost in
             return Mapper<BlogPost>().map(postJSON)!
         }

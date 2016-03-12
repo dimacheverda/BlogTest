@@ -8,71 +8,71 @@
 	<array>
 		<dict>
 			<key>origin_url</key>
-			<string></string>
+			<string>https://yalantis.com/blog/how-to-get-featured-on-the-app-store/</string>
 			<key>image_url</key>
-			<string></string>
+			<string>https://yalantis-com.s3.amazonaws.com/uploads/article/image/35/thumb_Screen-Shot-2016-01-02-at-5.55.19-PM-956x570.png</string>
 			<key>title</key>
 			<string>How to Get Your App Featured on the App Store</string>
 			<key>post_description</key>
-			<string></string>
+			<string>Simple steps that you can take to get your app featured on the App Store.</string>
 			<key>author</key>
-			<string></string>
+			<string>Rustam Tagiev</string>
 			<key>views_count</key>
 			<integer>5</integer>
 		</dict>
 		<dict>
 			<key>origin_url</key>
-			<string></string>
+			<string>https://yalantis.com/blog/-seven-types-of-animations-for-mobile-apps/</string>
 			<key>image_url</key>
-			<string></string>
+			<string>https://yalantis-com.s3.amazonaws.com/uploads/article/image/31/thumb_Cover1000x400.jpeg</string>
 			<key>title</key>
 			<string>7 Types of Animations for Your Mobile App</string>
 			<key>post_description</key>
-			<string></string>
+			<string>This article describes seven types of animations and nine design principles that can make animations truly successful</string>
 			<key>author</key>
-			<string></string>
+			<string>Anatoly Nesterov</string>
 			<key>views_count</key>
 			<integer>7</integer>
 		</dict>
 		<dict>
 			<key>origin_url</key>
-			<string></string>
+			<string>https://yalantis.com/blog/excellent-mobile-app-design/</string>
 			<key>image_url</key>
-			<string></string>
+			<string>https://yalantis-com.s3.amazonaws.com/uploads/article/image/24/thumb_RealPixels.jpg</string>
 			<key>title</key>
 			<string>5 Design Tricks to Succeed in 2016 for Mobile App Product Owners</string>
 			<key>post_description</key>
-			<string></string>
+			<string>There are five important things in mobile app design that you need to pay most attention to if you want to win the competition in 2016</string>
 			<key>author</key>
-			<string></string>
+			<string>Ian Chernov</string>
 			<key>views_count</key>
 			<integer>423</integer>
 		</dict>
 		<dict>
 			<key>origin_url</key>
-			<string></string>
+			<string>https://yalantis.com/blog/why-yalantis-is-a-company-you-can-trust/</string>
 			<key>image_url</key>
-			<string></string>
+			<string>https://yalantis-com.s3.amazonaws.com/uploads/article/image/30/thumb_How-to-Steal-Traffic-From-Your-Competitors-with-SEO-tool-XOVI.jpg</string>
 			<key>title</key>
 			<string>Why Yalantis Is a Company You Can Trust</string>
 			<key>post_description</key>
-			<string></string>
+			<string>All the important reasons why you can trust Yalantis to build an app for you. Check out how we protect your Intellectual Property rights.</string>
 			<key>author</key>
-			<string></string>
+			<string>Rustam Tagiev</string>
 			<key>views_count</key>
 			<integer>32</integer>
 		</dict>
 		<dict>
 			<key>origin_url</key>
-			<string></string>
+			<string>https://yalantis.com/blog/how-much-does-it-cost-to-design-an-app/</string>
 			<key>image_url</key>
-			<string></string>
+			<string>https://yalantis-com.s3.amazonaws.com/uploads/article/image/1620/thumb_head_image_UtO2KSK.jpg</string>
 			<key>title</key>
 			<string>How Much Does It Cost to Design an App?</string>
 			<key>post_description</key>
-			<string></string>
+			<string>First, we will discuss what factors influence the cost of app design. Then, we&apos;ll talk about how much it can cost to design an app depending on project complexity and the geographic location of app designers.</string>
 			<key>author</key>
-			<string></string>
+			<string>Kate Abrosimova</string>
 			<key>views_count</key>
 			<integer>86</integer>
 		</dict>

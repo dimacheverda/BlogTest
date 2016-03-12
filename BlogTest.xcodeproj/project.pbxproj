@@ -69,7 +69,7 @@
 			children = (
 				9F3CDE561C943DBA00B1D420 /* BlogPost.swift */,
 			);
-			name = Entities;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		9F6EF8B31C9422EA005E9F7C = {
@@ -117,9 +117,9 @@
 		9F6EF8D21C942384005E9F7C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F3CDE581C943DBE00B1D420 /* Entities */,
 				9F6EF8D91C942BFD005E9F7C /* Networking.swift */,
 				9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */,
-				9F3CDE581C943DBE00B1D420 /* Entities */,
 			);
 			path = Models;
 			sourceTree = "<group>";

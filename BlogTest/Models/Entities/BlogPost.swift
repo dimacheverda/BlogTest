@@ -15,7 +15,7 @@ class BlogPost: Mappable {
     var imageURL: String?
     var postDescription: String?
     var author: String?
-    var viewsCount: Int?
+    var viewsCount: Int = 0
     var originURL: String?
     
     required init?(_ map: Map) {
