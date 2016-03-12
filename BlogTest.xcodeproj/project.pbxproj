@@ -20,6 +20,7 @@
 		9F6EF8DC1C942F0D005E9F7C /* Stubing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */; };
 		9F6EF8DF1C943004005E9F7C /* BlogPostsResponse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8DE1C943004005E9F7C /* BlogPostsResponse.plist */; };
 		9F6EF8E11C943151005E9F7C /* BlogPostsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8E01C943151005E9F7C /* BlogPostsResponse.json */; };
+		9F93D62C1C94B97C00E40ABA /* GetBlogPostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93D62B1C94B97C00E40ABA /* GetBlogPostsResponse.swift */; };
 		E2FC53E70B318EBD4E87C8BE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F11E9F0F250D77C2C798509 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +38,11 @@
 		9F6EF8C91C9422EA005E9F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6EF8CB1C9422EA005E9F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6EF8D71C94271E005E9F7C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F6EF8D91C942BFD005E9F7C /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		9F6EF8D91C942BFD005E9F7C /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stubing.swift; sourceTree = "<group>"; };
 		9F6EF8DE1C943004005E9F7C /* BlogPostsResponse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BlogPostsResponse.plist; sourceTree = "<group>"; };
 		9F6EF8E01C943151005E9F7C /* BlogPostsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlogPostsResponse.json; sourceTree = "<group>"; };
+		9F93D62B1C94B97C00E40ABA /* GetBlogPostsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetBlogPostsResponse.swift; path = BlogTest/Models/GetBlogPostsResponse.swift; sourceTree = SOURCE_ROOT; };
 		CD916F349F944B6E74E7BBB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				9F3CDE561C943DBA00B1D420 /* BlogPost.swift */,
+				9F93D62B1C94B97C00E40ABA /* GetBlogPostsResponse.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -81,7 +84,9 @@
 				9F6EF8BD1C9422EA005E9F7C /* Products */,
 				9F6EF8D71C94271E005E9F7C /* Podfile */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		9F6EF8BD1C9422EA005E9F7C /* Products */ = {
 			isa = PBXGroup;
@@ -305,6 +310,7 @@
 			files = (
 				9F3CDE511C94369B00B1D420 /* BlogPostsViewController.swift in Sources */,
 				9F3CDE541C9436CC00B1D420 /* BlogPostCell.swift in Sources */,
+				9F93D62C1C94B97C00E40ABA /* GetBlogPostsResponse.swift in Sources */,
 				9F6EF8DC1C942F0D005E9F7C /* Stubing.swift in Sources */,
 				9F3CDE571C943DBA00B1D420 /* BlogPost.swift in Sources */,
 				9F6EF8C01C9422EA005E9F7C /* AppDelegate.swift in Sources */,

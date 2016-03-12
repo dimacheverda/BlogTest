@@ -10,31 +10,47 @@ import UIKit
 import SDWebImage
 
 class BlogPostCell: UITableViewCell {
+    
+    var blogPost: BlogPost?
 
-    //  MARK: - Oulets
+    @IBOutlet private weak var backgroundImageView: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet private weak var descriptionLabel: UILabel!
+    @IBOutlet private weak var authorLabel: UILabel!
+    @IBOutlet private weak var viewsCountLabel: UILabel!
+    @IBOutlet private weak var tintView: UIView!
     
-    @IBOutlet weak var backgroundImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var authorLabel: UILabel!
-    @IBOutlet weak var viewsCountLabel: UILabel!
-    
-    //  MARK: - Lifecycle
+    private let tintViewColor: UIColor = UIColor(white: 0.0, alpha: 0.6)
+    private let selectedTintViewColor: UIColor = UIColor(white: 0.0, alpha: 0.45)
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
+        if selected {
+            tintView.backgroundColor = selectedTintViewColor
+        } else {
+            tintView.backgroundColor = tintViewColor
+        }
+    }
+    
+    override func setHighlighted(highlighted: Bool, animated: Bool) {
+        super.setHighlighted(highlighted, animated: animated)
+        
+//        print("setHightlighted", highlighted, animated)
+//        if highlighted {
+//            tintView.backgroundColor = tintViewColor
+//        } else {
+//            tintView.backgroundColor = selectedTintViewColor
+//        }
     }
 
-    //  MARK: - Configuration
-    
     func configure(post: BlogPost) {
+        blogPost = post
+        
         if let title = post.title {
             titleLabel.text = title
         }

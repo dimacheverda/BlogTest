@@ -9,13 +9,9 @@
 import UIKit
 
 class BlogPostsViewController: UIViewController {
-
-    //  MARK: - Properties
     
     @IBOutlet weak var tableView: UITableView!
     var posts: [BlogPost] = []
-    
-    //  MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +25,6 @@ class BlogPostsViewController: UIViewController {
         tableView.registerNib(blogPostCellNib, forCellReuseIdentifier: String(BlogPostCell))
         tableView.rowHeight = 200.0
     }
-    
-    //  MARK: - Fetch
     
     func fetchBlogPosts() {
         RequestsManager().fetchBlogPosts { (results, error) -> () in
@@ -66,5 +60,12 @@ extension BlogPostsViewController: UITableViewDataSource {
         cell.configure(post)
         
         return cell
+    }
+}
+
+extension BlogPostsViewController: UITableViewDelegate {
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+
     }
 }
