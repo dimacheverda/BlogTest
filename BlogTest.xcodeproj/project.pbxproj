@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9F6EF8C01C9422EA005E9F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF8BF1C9422EA005E9F7C /* AppDelegate.swift */; };
-		9F6EF8C21C9422EA005E9F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C11C9422EA005E9F7C /* ViewController.swift */; };
 		9F6EF8C51C9422EA005E9F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C31C9422EA005E9F7C /* Main.storyboard */; };
 		9F6EF8C71C9422EA005E9F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C61C9422EA005E9F7C /* Assets.xcassets */; };
 		9F6EF8CA1C9422EA005E9F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF8C81C9422EA005E9F7C /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		9F6EF8BC1C9422EA005E9F7C /* BlogTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6EF8BF1C9422EA005E9F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F6EF8C11C9422EA005E9F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F6EF8C41C9422EA005E9F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6EF8C61C9422EA005E9F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6EF8C91C9422EA005E9F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,61 @@
 		9F6EF8BE1C9422EA005E9F7C /* BlogTest */ = {
 			isa = PBXGroup;
 			children = (
-				9F6EF8BF1C9422EA005E9F7C /* AppDelegate.swift */,
-				9F6EF8C11C9422EA005E9F7C /* ViewController.swift */,
-				9F6EF8C31C9422EA005E9F7C /* Main.storyboard */,
-				9F6EF8C61C9422EA005E9F7C /* Assets.xcassets */,
-				9F6EF8C81C9422EA005E9F7C /* LaunchScreen.storyboard */,
-				9F6EF8CB1C9422EA005E9F7C /* Info.plist */,
+				9F6EF8D61C9423E3005E9F7C /* App */,
+				9F6EF8D31C942389005E9F7C /* Controllers */,
+				9F6EF8D21C942384005E9F7C /* Models */,
+				9F6EF8D51C9423DA005E9F7C /* Resources */,
+				9F6EF8D41C9423AC005E9F7C /* Storyboards */,
+				9F6EF8D11C94237C005E9F7C /* Views */,
 			);
 			path = BlogTest;
+			sourceTree = "<group>";
+		};
+		9F6EF8D11C94237C005E9F7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F6EF8D21C942384005E9F7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F6EF8D31C942389005E9F7C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F6EF8D41C9423AC005E9F7C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9F6EF8C81C9422EA005E9F7C /* LaunchScreen.storyboard */,
+				9F6EF8C31C9422EA005E9F7C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9F6EF8D51C9423DA005E9F7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F6EF8C61C9422EA005E9F7C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F6EF8D61C9423E3005E9F7C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9F6EF8BF1C9422EA005E9F7C /* AppDelegate.swift */,
+				9F6EF8CB1C9422EA005E9F7C /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +135,7 @@
 		9F6EF8B41C9422EA005E9F7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BT;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Dima Cheverda";
@@ -135,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6EF8C21C9422EA005E9F7C /* ViewController.swift in Sources */,
 				9F6EF8C01C9422EA005E9F7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +194,7 @@
 				9F6EF8C41C9422EA005E9F7C /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		9F6EF8C81C9422EA005E9F7C /* LaunchScreen.storyboard */ = {
@@ -157,6 +203,7 @@
 				9F6EF8C91C9422EA005E9F7C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BlogTest/Info.plist;
+				INFOPLIST_FILE = BlogTest/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytro-cheverda.BlogTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,7 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BlogTest/Info.plist;
+				INFOPLIST_FILE = BlogTest/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dmytro-cheverda.BlogTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +331,7 @@
 				9F6EF8D01C9422EA005E9F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
