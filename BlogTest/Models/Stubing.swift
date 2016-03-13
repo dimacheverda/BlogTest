@@ -13,8 +13,9 @@ import OHHTTPStubs
 class Stubs: NSObject {
 
     func setupStubs() {
-        let stubURLString = "yalantis.com"
-        stub(isHost(stubURLString)) { _ in
+        let host = "yalantis.com"
+        let path = "/blog"
+        stub(isHost(host) && isPath(path)) { _ in
             let stubPath = OHPathForFile("BlogPostsResponse.json", self.dynamicType)
             return fixture(stubPath!, headers: ["Content-Type":"application/json"])
         }

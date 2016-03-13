@@ -12,7 +12,7 @@ import ObjectMapper
 
 class RequestsManager: NSObject {
     
-    private let URLString = "https://yalantis.com/blog/"
+    private let URLString = "https://yalantis.com/blog"
     
     func fetchBlogPosts(completion: ((posts: [AnyObject]?, error: NSError?) -> ())?) {
         Alamofire.request(.GET, URLString)
