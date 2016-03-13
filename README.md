@@ -16,3 +16,9 @@
 - For creating `UITableViewCell`'s used XIB for better reuseability.
 - Stubbed response is created as `plist` file and then converted to JSON. Both files referenced in project.
 - For better project structuring used `Synx` tool, which creates folders in file system corresponding to project groups.
+
+### Improvements
+
+- Add Pull-to-Refresh to realod feed data
+- Add CoreData for data persisting
+- Add infinite scrolling if more response data provided
