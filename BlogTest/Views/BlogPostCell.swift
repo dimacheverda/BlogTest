@@ -40,12 +40,11 @@ class BlogPostCell: UITableViewCell {
     override func setHighlighted(highlighted: Bool, animated: Bool) {
         super.setHighlighted(highlighted, animated: animated)
         
-//        print("setHightlighted", highlighted, animated)
-//        if highlighted {
-//            tintView.backgroundColor = tintViewColor
-//        } else {
-//            tintView.backgroundColor = selectedTintViewColor
-//        }
+        if highlighted {
+            tintView.backgroundColor = selectedTintViewColor
+        } else {
+            tintView.backgroundColor = tintViewColor
+        }
     }
 
     func configure(post: BlogPost) {

@@ -35,7 +35,6 @@ class BlogPostsViewController: UIViewController {
             }
             
             if let results = results as? [BlogPost] {
-                print("results", results)
                 self.blogPosts = results
                 self.tableView.reloadData()
             }
@@ -76,6 +75,7 @@ extension BlogPostsViewController: UITableViewDataSource {
 extension BlogPostsViewController: UITableViewDelegate {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
         selectedBlogPost = blogPosts[indexPath.row]
         performSegueWithIdentifier("Open Post", sender: self)
     }
