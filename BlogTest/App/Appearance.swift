@@ -10,8 +10,8 @@ import UIKit
 
 class Appearance {
     class func setupAppearance() {
-        let barTintColor = UIColor(red:0.09, green:0.09, blue:0.11, alpha:1)
-        let tintColor = UIColor(red:1, green:0.39, blue:0, alpha:1)
+        let barTintColor = UIColor(red:0.09, green:0.09, blue:0.11, alpha:1)  // Yalantis gray color
+        let tintColor = UIColor(red:1, green:0.39, blue:0, alpha:1)  // Yalantis orange color
         
         UINavigationBar.appearance().tintColor = tintColor
         UINavigationBar.appearance().barTintColor = barTintColor

@@ -23,6 +23,7 @@
 		9F93D62C1C94B97C00E40ABA /* GetBlogPostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93D62B1C94B97C00E40ABA /* GetBlogPostsResponse.swift */; };
 		9F93D62E1C94D34B00E40ABA /* OriginalPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93D62D1C94D34B00E40ABA /* OriginalPostViewController.swift */; };
 		9F93D6301C95850F00E40ABA /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93D62F1C95850F00E40ABA /* Appearance.swift */; };
+		9F93D6321C95B4EB00E40ABA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F93D6311C95B4EB00E40ABA /* README.md */; };
 		E2FC53E70B318EBD4E87C8BE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F11E9F0F250D77C2C798509 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +45,10 @@
 		9F6EF8DB1C942F0D005E9F7C /* Stubing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stubing.swift; sourceTree = "<group>"; };
 		9F6EF8DE1C943004005E9F7C /* BlogPostsResponse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BlogPostsResponse.plist; sourceTree = "<group>"; };
 		9F6EF8E01C943151005E9F7C /* BlogPostsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlogPostsResponse.json; sourceTree = "<group>"; };
-		9F93D62B1C94B97C00E40ABA /* GetBlogPostsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetBlogPostsResponse.swift; path = BlogTest/Models/GetBlogPostsResponse.swift; sourceTree = SOURCE_ROOT; };
+		9F93D62B1C94B97C00E40ABA /* GetBlogPostsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBlogPostsResponse.swift; sourceTree = "<group>"; };
 		9F93D62D1C94D34B00E40ABA /* OriginalPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalPostViewController.swift; sourceTree = "<group>"; };
 		9F93D62F1C95850F00E40ABA /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		9F93D6311C95B4EB00E40ABA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CD916F349F944B6E74E7BBB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				D4F828BCF3DDC4FD3F9D7EF7 /* Pods */,
 				9F6EF8BD1C9422EA005E9F7C /* Products */,
 				9F6EF8D71C94271E005E9F7C /* Podfile */,
+				9F93D6311C95B4EB00E40ABA /* README.md */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				9F3CDE511C94369B00B1D420 /* BlogPostsViewController.swift in Sources */,
 				9F93D6301C95850F00E40ABA /* Appearance.swift in Sources */,
+				9F93D6321C95B4EB00E40ABA /* README.md in Sources */,
 				9F3CDE541C9436CC00B1D420 /* BlogPostCell.swift in Sources */,
 				9F93D62E1C94D34B00E40ABA /* OriginalPostViewController.swift in Sources */,
 				9F93D62C1C94B97C00E40ABA /* GetBlogPostsResponse.swift in Sources */,
